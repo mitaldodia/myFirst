@@ -93,6 +93,7 @@ function SearchBar({
   onInStockOnlyChange
 }) {
   return (
+    <div className="form-details-list">
     <form className='m-5'>
       <input 
         type="text" 
@@ -107,6 +108,7 @@ function SearchBar({
         Only show products in stock
       </label>
     </form>
+    </div>
   );
 }
 
