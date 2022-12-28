@@ -74,7 +74,7 @@ function ProductTable({ products, filterText, inStockOnly }) {
   });
 
   return (
-    <table className='m-5'>
+    <table className='m-5 table table-striped table-list-details'>
       <thead>
         <tr>
           <th>Name</th>
@@ -94,12 +94,12 @@ function SearchBar({
 }) {
   return (
     <div className="form-details-list">
-    <form className='m-5'>
+    <form className='m-2'>
       <input 
         type="text" 
         value={filterText} placeholder="Search..." 
         onChange={(e) => onFilterTextChange(e.target.value)} />
-      <label>
+      <label className='ms-3'>
         <input 
           type="checkbox" 
           checked={inStockOnly} 

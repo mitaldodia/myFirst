@@ -15,7 +15,7 @@
 .form-details-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   background: #7656a1;
 }
 .App-header {
@@ -28,7 +28,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.table-list-details{
+  max-width: 800px;
 
+}
 .App-link {
   color: #61dafb;
 }
