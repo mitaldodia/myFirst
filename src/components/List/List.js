@@ -114,34 +114,12 @@ function SearchBar({
 
 const PRODUCTS = [
   {category: "Fruits", price: "$1", stocked: true, name: "Apple"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Banana"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Blueberry"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Cranberry"},
   {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Finger Lime"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Grapefruit"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Hazelnut"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit"},
-  {category: "Fruits", price: "$1", stocked: true, name: "Kiwi"},
   {category: "Fruits", price: "$2", stocked: false, name: "Passionfruit"},
   {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
-  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
-  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
-  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
-  {category: "Vegetables", price: "$2", stocked: true, name: "Spinach"},
   {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
-  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
-  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
-  {category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
-  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"},
+  {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
 ];
-
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
