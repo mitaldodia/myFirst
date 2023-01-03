@@ -35,8 +35,11 @@ export default function Navbar(props) {
           <li className="nav-item">
             <Link className="nav-link" to="/curdaxio">Curd-Axios</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link user-login" to="/userlogin"> <img src='user.png' alt='user-image'/></Link>
+          </li>
         </ul>
-        
+          
           <div className={`form-check form-switch d-flex text-${props.mode === 'light'? 'dark': 'light'}`}>
             <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Change theme color</label>
