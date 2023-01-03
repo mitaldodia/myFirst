@@ -9,6 +9,7 @@ import {Routes, Route} from "react-router-dom";
 import ReduxExa from './components/ReduxExa';
 import Game from './components/Game';
 import List from './components/List/List';
+import CurdAxio from './components/CurdAxio';
 
  
 function App() {
@@ -58,7 +59,7 @@ function App() {
           <Route exact path="/reduxex" element={ <ReduxExa />}/>
           <Route exact path="/game" element={ <Game />}/>
           <Route exact path="/list" element={ <List />}/>
-
+          <Route exact path="/curdaxio" element={ <CurdAxio />}/>
     </Routes>
     </>
   );

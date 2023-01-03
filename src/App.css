@@ -1,7 +1,66 @@
 .App {
   text-align: center;
 }
+.app {
+	margin: auto;
+	width: 40%;
+}
 
+@media (max-width: 500px) {
+	.app {
+		margin: auto;
+		width: 90%;
+	}
+}
+
+nav {
+	text-align: center;
+	padding: 30px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-control,
+button {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+form button {
+	background-color: blue;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.posts-container {
+	margin-top: 50px;
+}
+
+.posts-container h2 {
+	margin: 15px 0;
+}
+
+.post-card {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.delete-btn {
+	margin-top: 10px;
+	background-color: red;
+	color: #fff;
+	padding: 15px 40px;
+	border-radius: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

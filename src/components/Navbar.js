@@ -32,6 +32,9 @@ export default function Navbar(props) {
           <li className="nav-item">
             <Link className="nav-link" to="/list">List Example</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/curdaxio">Curd-Axios</Link>
+          </li>
         </ul>
         
           <div className={`form-check form-switch d-flex text-${props.mode === 'light'? 'dark': 'light'}`}>
